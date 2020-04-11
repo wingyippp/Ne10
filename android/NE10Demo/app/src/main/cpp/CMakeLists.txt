@@ -26,6 +26,9 @@
 #
 
 # we run performance test in Android Demo
+cmake_minimum_required(VERSION 3.3.2)
+SET(PROJECT_SOURCE_DIR ../../../../../..)
+#include(${PROJECT_SOURCE_DIR}/test/CMakeLists.txt)
 add_definitions(-DPERFORMANCE_TEST)
 
 include_directories (
